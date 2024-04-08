@@ -15,7 +15,7 @@ namespace DanePerso
         void IZapis.ZapiszRasy(List<Rasa> rasas)
         {
             using StreamWriter writer = new(sciezkaDoPliku);
-            }
+        }
 
         List<Rasa> IZapis.ZaladujRasy
         {
@@ -25,7 +25,7 @@ namespace DanePerso
             }
         }
 
-        public void ZapisRasy(List<Rasa> rasas) => throw new NotImplementedException();
+        void IZapis.ZapisRasy(List<Rasa> rasas) => throw new NotImplementedException();
     }
 }
 
