@@ -21,6 +21,11 @@ namespace DanePerso
         private int timeOfModyfication;
         private IEnumerable<Mody> rasa;
 
+        public Rasa(IEnumerable<Mody> rasa)
+        {
+            this.rasa = rasa;
+        }
+
         public Rasa()
         {
         }

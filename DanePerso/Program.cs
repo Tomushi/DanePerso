@@ -47,7 +47,7 @@ while (czyKontynuowac)
             Console.WriteLine("Kazda odpowiedz potwierdz Enterem");
 
 
-            new Rasa(firstName, name, age, shoes, sex, spieces, region, power, modyfications, timeOfModyfication).DodajRase(new Rasa(firstName, name, age, shoes, sex, spieces, region, power, modyfications, timeOfModyfication));
+            new Rasa().DodajRase(new Rasa(firstName, name, age, shoes, sex, spieces, region, power, modyfications, timeOfModyfication));
             break;
 
         case "2":
