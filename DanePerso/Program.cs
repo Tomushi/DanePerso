@@ -1,6 +1,9 @@
 ﻿using DanePerso;
 using System.Xml.Linq;
 
+ZapisDoPliku pliki = new ZapisDoPliku();
+Rasa rasa = new Rasa();
+
 Rasa Mody = new();
 
 bool czyKontynuowac = true;
