@@ -25,10 +25,7 @@ namespace DanePerso
             }
         }
 
-        public void ZapisRasy(List<Rasa> rasas)
-        {
-            throw new NotImplementedException();
-        }
+        public void ZapisRasy(List<Rasa> rasas) => throw new NotImplementedException();
     }
 }
 
